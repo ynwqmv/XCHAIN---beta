@@ -1,5 +1,8 @@
-# XCHAIN---beta
-Official Implementation of XCHAIN Blockchain wrotten and published on Python Programming Language and JSON.
+# XCHAIN-BLOCKCHAIN
+__Official Implementation of XCHAIN Blockchain wrotten   
+and published on Python Programming Language | B__
+
+
 
 # Introduction
 ## Proof-Of-Work Algorithm
@@ -64,6 +67,16 @@ def new_transaction(self, sender, recipient, amount,balance=0):
         return True
 ```
 ## Genesis Block
+```py
+def __init__(self):
+        self.chain = []
+        self.current_transactions = []
+        self.nodes = set() # set is a way to ensure that we won't have duplicate nodes
+        # create the genesis block
+        cprint('> forging genesis block...','green')
+        self.new_block(previous_hash=1, proof=100)
+```
+## Genesis Block {JSON}
 ```json
 {
     "chain": [
