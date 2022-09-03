@@ -4,7 +4,7 @@ and published on Python Programming Language | B
 
 `version - 0.27.1`
 
-
+![Response Json](https://user-images.githubusercontent.com/112755279/188266836-3a3bedc6-dbb2-4443-a6fd-eb66e311ad5e.png)
 
 # Introduction
 ## Proof-Of-Work Algorithm
