@@ -63,6 +63,63 @@ def new_transaction(self, sender, recipient, amount,balance=0):
             current_index += 1
         return True
 ```
+## Genesis Block
+```json
+{
+    "chain": [
+        {
+            "index": 1,
+            "previous_hash": 1,
+            "proof": 100,
+            "timestamp": 1662198349.1180427,
+            "transactions": []
+        },
+```
+## Blocks After Genesis
+```json
+{
+            "index": 2,
+            "previous_hash": "e92acd3663aafd09f8b5f42d0bcbf464f9860a411256847d747b265a70e4ba13",
+            "proof": 35293,
+            "timestamp": 1662198883.4122696,
+            "transactions": [
+                {
+                    "amount": 4,
+                    "recipient": "9a17a009465e4fd4a44b2f858d9858be",
+                    "sender": "BLOCK MINED"
+                }
+            ]
+        },
+        {
+            "index": 3,
+            "previous_hash": "9a1824098eb85324a230193c3be40b481893c0dede9ea6ed810a85dc5ab15794",
+            "proof": 35089,
+            "timestamp": 1662198884.5207536,
+            "transactions": [
+                {
+                    "amount": 4,
+                    "recipient": "9a17a009465e4fd4a44b2f858d9858be",
+                    "sender": "BLOCK MINED"
+                }
+            ]
+        },
+        {
+            "index": 4,
+            "previous_hash": "6341aefbd85adcb7a064c0889eb440fd9d5af0c197bdad119631845c859f3aeb",
+            "proof": 119678,
+            "timestamp": 1662198885.1536438,
+            "transactions": [
+                {
+                    "amount": 4,
+                    "recipient": "9a17a009465e4fd4a44b2f858d9858be",
+                    "sender": "BLOCK MINED"
+                }
+            ]
+        },
+
+```
+
+
 
 # Need to do
 * Halving after each `#10000` mined blocks
