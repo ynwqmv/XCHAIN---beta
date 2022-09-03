@@ -17,7 +17,7 @@ Official Implementation of XCHAIN Blockchain wrotten and published on Python Pro
             proof += 1
         return proof
 ```
-____
+
 ## Transaction
 ```py
 
@@ -40,7 +40,7 @@ def new_transaction(self, sender, recipient, amount,balance=0):
         return self.last_block['index'] + 1
 
 ```
-____
+
 ## Chain Validate
 ```py
     def valid_chain(self, chain):
