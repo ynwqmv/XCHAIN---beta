@@ -1,6 +1,8 @@
 # XCHAIN-BLOCKCHAIN
-__Official Implementation of XCHAIN Blockchain wrotten   
-and published on Python Programming Language | B__
+Official Implementation of XCHAIN Blockchain wrotten      
+and published on Python Programming Language | B
+
+`version - 0.27.1`
 
 
 
